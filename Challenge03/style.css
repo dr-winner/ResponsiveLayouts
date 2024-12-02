@@ -10,22 +10,31 @@ body {
 
 .container {
   width: 80%;
-  max-width: 750px;
   margin: 0 auto;
   background: #23424A;
+  padding: 40px;
 }
 
 .container h1{
   font-family: Roboto;
   font-size: 48px;
+  width: 50%;
+  color: white;
+
 }
 
 .container p{
   font-family: Roboto;
   font-size: 21px;
+  width: 50%;
+  color: white;
+  
 }
 
 .container button{
+  background: #38CFD9;
+  border-radius: 40px;
   font-family: Roboto;
   font-size: 21px;
+  padding: 10px 20px;
 }
