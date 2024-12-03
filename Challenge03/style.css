@@ -1,5 +1,5 @@
 
-* {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
   background: #23424A;
   padding: 40px;
+  height: 100vh;
 }
 
 .container h1{
@@ -37,4 +38,11 @@ body {
   font-family: Roboto;
   font-size: 21px;
   padding: 10px 20px;
+  margin-bottom: 2em;
+}
+
+button:hover,
+button:focus {
+  background: #2C9FA3;
+  color: white;
 }
